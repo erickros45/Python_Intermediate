@@ -10,10 +10,14 @@ def divisor(num):
 
 
 def run():
-    num = int(input("Ingresa in número: "))
-    print(divisor(num))
-    print("Terminó el programa")
-
+    try:
+        num = int(input("Ingresa in número: "))
+        if num <= 0:
+            raise ValueError
+        print(divisor(num))
+        print("Terminó el programa")
+    except ValueError:
+        print("Debes escribir un número entero positivo")
 
 if __name__=='__main__':
     run()
