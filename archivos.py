@@ -1,6 +1,3 @@
-from tkinter.font import names
-
-
 def read():
     numbers = []
     with open("./archivos/numbers.txt", "r", encoding="utf-8") as f:
