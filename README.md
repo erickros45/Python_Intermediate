@@ -1,2 +1,3 @@
 # Python_Intermidiate
-Course of Python Intermediate 
+Intermediate Python Course from Platzi
+
